@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background: url('../../image/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+}
+.curtain1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(210, 146, 146, 0.889), rgba(244, 10, 10, 0.758));
+    animation: openCurtain 2s forwards;
+}
+.curtain2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(210, 146, 146, 0.889), rgba(244, 10, 10, 0.758));
+    animation: openCurtain 2s forwards;
+}
+@keyframes openCurtain {
+    0% {
+        width: 50%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+.container {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+   
+}
+
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #FF0000;
+}
+
+
+.confetti {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFD700;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: fall 5s infinite;
+}
+.moving-elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: move 2s infinite;
+}
+.button {
+    padding: 20px 40px;
+    background-color: #ff3333;
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff1a1a;
+}
+/* @keyframes move {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-40%, -40%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+} */
+@keyframes fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
