@@ -11,6 +11,6 @@ A professional raffle website, a platform for marketing and purchasing tickets f
 - **Communication Between Admin and Customers:** Capability for direct communication between the site administrator and customers through the website.
 ## Key Technologies:
 - **Database:** MongoDB 
-- **שפת פיתוח לצד שרת:** NodeJS 
+- **Server-Side Development Language:** NodeJS 
 - **Server-Side Development Language:** React 
 - **Version Control:** Git
