@@ -1,17 +1,16 @@
 
 
-# אתר הגרלות מקצועי
+# Professional Raffle Website
 
-## תיאור הפרויקט:
-אתר הגרלות מקצועי, פלטפורמה לשיווק ורכישת כרטיסים להגרלות. האתר מספק חווית משתמש מעולה, תוך הדגשה על נגישות, ידידותיות ואבטחה.
+## Project Description:
+A professional raffle website, a platform for marketing and purchasing tickets for raffles. The site provides an excellent user experience, emphasizing accessibility, user-friendliness, and security.
 
-## תכונות מרכזיות:
-- **ניהול משתמשים:** האתר מאפשר למנהלים ולמשתמשים להירשם ולנהל את פרטיהם בצורה נוחה.
-- **בטיחות ואבטחה:** שימוש בטכנולוגיות מתקדמות כגון token ו-authorization לאבטחת המידע והגישה למשתמשים הרשומים.
-- **תקשורת בין מנהל ללקוחות:** יכולת להתקשרות ישירה בין מנהל האתר ללקוחות דרך האתר.
-
-## טכנולוגיות מרכזיות:
-- **מסד נתונים:** MongoDB 
+## Key Features:
+- **User Management:** The website allows administrators and users to register and manage their details conveniently.
+- **Safety and Security** Utilization of advanced technologies such as tokens and authorization to secure data and access for registered users.
+- **Communication Between Admin and Customers:** Capability for direct communication between the site administrator and customers through the website.
+## Key Technologies:
+- **Database:** MongoDB 
 - **שפת פיתוח לצד שרת:** NodeJS 
-- **שפת פיתוח לצד לקוח:** React 
-- **ניהול גרסאות:** Git
+- **Server-Side Development Language:** React 
+- **Version Control:** Git
