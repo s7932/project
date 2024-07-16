@@ -89,7 +89,7 @@ const BasketList = (props) => {
 
     return (
         <>
-        <DataScroller value={props.basket} itemTemplate={table} rows={1} inline scrollHeight="80vh" header={header} footer={footer} />
+        <DataScroller value={props.basket} itemTemplate={table} rows={1} inline scrollHeight="73vh" header={header} footer={footer} />
 
         <Dialog visible={visible} style={{ width: '30vw' }} onHide={() => setVisible(false)} footer={footerContent}>
                 <p className="m-0">
